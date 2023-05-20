@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Employee List</h2>
+      <div class="filter-section">
+        <label for="profession-select">Filter by Profession:</label>
+        <select id="profession-select">
+          <option value="">Select a Profession</option>
+          <option value="developer">Developer</option>
+          <option value="admin">Admin</option>
+        </select>
+        <button id="filter-button">Filter</button>
+      </div>
+      <div id="employee-list"></div>
+      <h2>Add Employee</h2>
+      <div class="add-employee-section">
+        <label for="name-input">Name:</label>
+        <input type="text" id="name-input" />
+        <label for="age-input">Age:</label>
+        <input type="number" id="age-input" />
+        <label for="profession-input">Profession:</label>
+        <input type="text" id="profession-input" />
+        <button id="add-button">Add</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
